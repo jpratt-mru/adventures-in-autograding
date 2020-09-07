@@ -54,10 +54,10 @@ In the end, it's your call - if you are going to force the issue, you should rem
 1. Go to https://classroom.github.com/a/oVSuSWsm to accept the assignment.
 
    > **result:** a repo with the starting template is created and you are given non-admin access to that repo. A link to that repo is provided in the web browser after a few moments.
-   > ![Alt text](images/ready-to-go.png)
+   > ![Alt text](images/ready-to-go.PNG)
 
    > **result:** a variety of emails are sent to the student
-   > ![Alt text](images/student-emails.png)
+   > ![Alt text](images/student-emails.PNG)
    >
    > - one comes from the owner of the organization which tells them they've been invited to the assignment (they can ignore this one)
    > - another one, also from the organization owner, lets you know that a pull request has been created so that your instructor can leave feedback about your work. [this is an option that you are given when you create a GitHub Assignment - it could be super-confusing to students, so would recommend treading carefully here]
@@ -70,49 +70,49 @@ In the end, it's your call - if you are going to force the issue, you should rem
 3. Import the repo into Eclipse via the _File > Import > General > Existing Projects into Workspace_
 
    > **result:** The project will load and all the analysis tools should become active; in addition, Inifinitest should go yellow, indicating that there are errors that are stopping the unit tests from running:
-   > ![Alt text](images/infinitest-yellow.png)
+   > ![Alt text](images/infinitest-yellow.PNG)
 
 4. We'll add a stubbed-out `FriendList.java` to `src/main` to stop the compilation errors.
 
    > **result:** The compilation errors are gone, so Infinitest runs and reports failing tests (notice the red bar). Also, the failing tests are showing up under problems - and there is a warning from PMD now as well!
-   > ![Alt text](images/after-stub.png)
+   > ![Alt text](images/after-stub.PNG)
 
 5. Let's assume that the student runs out of time and decides to submit their work at this point. They save their work and now have to commit **and push** their work. They can do this either by dragging and dropping into the GitHub repo webpage, or by committing and pushing via the command line.
 
    > **result:** An email is sent to the student confirming that a commit has happened; the instructor will get a similar email as well.
 
    > **result:** The commit message and time stamp change on the repo web page. _Always get your students to confirm this!_ If they're truly paranoid - and why not? - they should click on the submit message and confirm that the changes they made have been actually uploaded!
-   > ![Alt text](images/commit-and-push.png)
+   > ![Alt text](images/commit-and-push.PNG)
 
 6. Now it's time to start the submit workflow. Go to the Actions tab and click on _Submit this assessment_.
 
    > **result:** The _Run workflow_ button will become available.
-   > ![Alt text](images/click-action-tab.png)
+   > ![Alt text](images/click-action-tab.PNG)
 
 7. Click on the _Run workflow_ button.
 
    > **result:** The workflow form will appear, prompting for the MRU username to use.
-   > ![Alt text](images/entry-form.png)
+   > ![Alt text](images/entry-form.PNG)
 
 8. Enter in the MRU username in the form that appears and click _Run workflow_.
 
    > **result:** After a few seconds, we'll see that the workflow has started.
-   > ![Alt text](images/started.png)
+   > ![Alt text](images/started.PNG)
 
 9. Click on the running workflow and then click on the _build_ link on the side.
 
    > **result:** We'll see the build in action on its virtual machine
-   > ![Alt text](images/in-progress.png)
+   > ![Alt text](images/in-progress.PNG)
 
 10. Wait (about 1 minute) for the build to complete.
 
 > **result:** We'll get an email, letting us know that an issue has been created containing the summary report for the build. (This is NOT a default thing for workflows BTW - it's actually in the current workflow script!)
 
 > **result:** An issue will appear in the Issues tab containing the summary report of the build.
-> ![Alt text](images/summary.png)
+> ![Alt text](images/summary.PNG)
 
 > **result:** We'll get an email, letting us know that an issue has been created containing the summary report for the build. (This is NOT a default thing for workflows BTW - it's actually in the current workflow script!)
-> ![Alt text](images/in-progress.png)
+> ![Alt text](images/in-progress.PNG)
 
 > **result:** The organization's submission repo now contains an entry for the submission. It contains both the summary report and a zip containing the summary report and also detailed reports and results of the build.
-> ![Alt text](images/submission-repo.png)
+> ![Alt text](images/submission-repo.PNG)
