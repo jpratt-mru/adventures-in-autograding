@@ -13,12 +13,6 @@ To make this work, we're going to be using the following:
 
 ## getting ready
 
-### Eclipse
-
-- install the desired version of OpenJDK (I suggest going through https://adoptopenjdk.net/)
-- install the latest version of Eclipse (Java Developers version) and then add the following plug-ins: - pmd-eclipse-plugin (source code analyzer; finds common flaws) - eclipse-cs (Checkstyle - source code analyzer; enforces coding standards) - infinitest (continuous test runner)
-- set useful global Eclipse preferences (`Window > Preferences`): - tell PMD to **not** show the PMD perspective (it's just one more perspective for students to keep track of and it's not needed) and to check for issues after every save - ![Alt text](images/1598271292131.png)
-
 ### GitHub
 
 Assuming you have a GitHub account, you'll want to set up a GitHub Organization for your section each semester; if you're teaching a course with multiple instructors involved and plan to have common assessments, you will likely want to create an _additional_ Organization to hold the shared assessment docs and starter code
