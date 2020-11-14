@@ -41,6 +41,7 @@ In the end, it's your call - if you are going to force the issue, you should rem
 #### Eclipse setup
 
 - install the desired version of OpenJDK (I suggest going through https://adoptopenjdk.net/)
+- download the [google-java-format plugin](https://github.com/google/google-java-format) - it's just a jar file - and drop it into `/your/eclipse/install/directory/plugins`
 - install the latest version of Eclipse (Java Developers version) and then add the following plug-ins:
   - **pmd-eclipse-plugin** (source code analyzer; finds common flaws)
   - **eclipse-cs** (Checkstyle - source code analyzer; enforces coding standards)
