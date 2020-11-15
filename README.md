@@ -5,6 +5,7 @@ Some notes put together to capture the suffering I went through so that it doesn
 - [an overview](overview.md)
 - [how things look like from a student's viewpoint](sample-student-run.md)
 - [what work](instructor-work.md) does the instructor have to do?
+- [a checklist](the-checklist.md) to follow when creating an assessment
 
 ## Code and tools needed to play along
 
